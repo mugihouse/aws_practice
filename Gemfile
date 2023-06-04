@@ -53,10 +53,6 @@ group :test do
   gem 'webdrivers'
 end
 
-# 本番環境用のgemグループを新しく作成しPostgresを指定
-group :production do
-  gem 'mysql2'
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
